@@ -1,0 +1,104 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+  h1{
+    font-size: 5.625rem;
+    font-family: 'Sacramento', cursive;
+    margin: 50px auto 0 auto;
+  }
+  h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E
+  }
+  a{
+    color: #11999E
+  }
+  h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: #66BFBF;
+  }
+  hr{
+    border-top-style: dotted;
+    border-width: 8px;
+    border: none;
+    width : 5%;
+    color: red;
+  }
+  a:link{
+    text-decoration: none;
+  }
+  .Top-Container{
+    background-color: #ccf6c8;
+    position: relative;
+    padding-top: 100px
+  }
+
+  .top_cloud{
+    position: absolute;
+    right:400px;
+    top:50px;
+  }
+  .bottom_cloud
+  {
+    position: absolute;
+    bottom: 300px;
+    left: 300px;
+  }
+  .DP
+  {
+    margin-top: 20px;
+  }
+  .desc{
+    margin: 0 30px 0 30px;
+    color:#40514E
+  }
+  .name_des{
+    color: #66BFBF;
+    line-height: 2;
+  }
+  .skill-row{
+    margin:100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+    width: 50%;
+  }
+  .TT-img{
+  margin-left: 30px;
+  width: 25%;
+  float:right;}
+  .Code-img{
+  margin-right: 30px;
+  width: 25%;
+  float:left;}
+  .head-skills{
+    color:#11999E;
+  }
+  .bottom-container{
+    padding: 30px;
+    background-color: #66BFBF;
+  }
+  .copyright{
+    color:#EAF6F6;
+  }
+  #head-skills{
+    color: #66BFBF;
+  }
+  .footer-link{
+    padding: 50px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .btn{
+    border:0;
+    margin: 40px;
+    line-height: 2;
+    color: white;
+    font-weight: bold;
+    font-size: 1.6rem;
+    background-color: #11999E;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+  }
