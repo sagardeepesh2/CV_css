@@ -22,17 +22,17 @@ body{
     color: #66BFBF;
   }
   hr{
-    border-top-style: dotted;
-    border-width: 8px;
-    border: none;
-    width : 5%;
-    color: red;
+  border: dotted #848ccf 6px;
+  border-bottom: none;
+  width :5%;
+  margin : 100px auto 100px auto;
+
   }
   a:link{
     text-decoration: none;
   }
   .Top-Container{
-    background-color: #ccf6c8;
+    background-color: #848ccf;
     position: relative;
     padding-top: 100px
   }
@@ -91,14 +91,27 @@ body{
     padding: 50px;
     font-family: 'Montserrat', sans-serif;
   }
-  .btn{
-    border:0;
-    margin: 40px;
-    line-height: 2;
-    color: white;
-    font-weight: bold;
-    font-size: 1.6rem;
-    background-color: #11999E;
-    border-radius: 10px;
-    font-family: 'Montserrat', sans-serif;
+  .btn {
+    margin: 0 0 40px 0;
+  	box-shadow: 0 10px 14px -7px #066cfb;
+  	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+  	background-color:#599bb3;
+  	border-radius:15px;
+  	display:inline-block;
+  	cursor:pointer;
+  	color:#ffffff;
+  	font-family:Arial;
+  	font-size:20px;
+  	font-weight:bold;
+  	padding:13px 32px;
+  	text-decoration:none;
+  	text-shadow:0 1px 0 #3d768a;
+  }
+  .btn:hover {
+  	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+  	background-color:#408c99;
+  }
+  .btn:active {
+  	position:relative;
+  	top:1px;
   }
